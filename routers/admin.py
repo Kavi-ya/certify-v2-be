@@ -69,7 +69,7 @@ def admin_get_templates():
     return {
         "ok": True,
         "message": "Templates fetched successfully",
-        "templates": templates,
+        "data": templates,
     }
 
 @router.get("/certificates")
@@ -81,5 +81,5 @@ def admin_get_certificates(
     return {
         "ok": True,
         "message": "Certificates fetched successfully",
-        "certificates": certificates,
+        "data": certificates,
     }
